@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E6F7F9;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    padding-bottom: 100px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    margin-left: 300px;
+    padding: 20px;
+}
+
+.sidebar {
+        display: flex;
+        flex-direction: column;
+        background: #0F5A67;
+        color: #fff;
+        text-align: center;
+        width: 300px;
+        height: 100vh;
+        position: fixed;
+        align-items: center;
+}
+
+.sidebar .img-perfil {
+    width: 136px;
+    height: 135px;
+    border-radius: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.sidebar nav ul li{
+    margin-bottom: 26px;
+}
+
+.text-sair a{
+    margin-top: auto;
+}
+
+.titulo-geral {
+    text-align: center;
+    color: #0F5A67;
+}
+
+.fundo-verde-cards {
+    height: 186px;
+    background-color: #0F5A67;
+}
+
+.fundo-verde-cards2 {
+    text-align: center;
+    height: 193px;
+    background-color: #0F5A67;
+    padding-top: 15px;
+    color: #E6F7F9;
+}
+
+.fundo-verde-cards3 {
+    text-align: center;
+    height: 193px;
+    background-color: #0F5A67;
+    padding-top: 15px;
+    color: #E6F7F9;
+}
+
+.fundo-verde-cards3 form {
+    display: flex;
+    flex-direction: column;
+    width: 489px;
+    margin: auto;
+    
+}
+
+.fundo-verde-cards3 input{
+    outline: none;
+    margin-bottom: 4px;
+    padding-left: 10px;
+}
+
+.fundo-verde-cards4{
+    height: 230px;
+    background-color: #0F5A67;
+    padding-top: 15px;
+    color: #E6F7F9;
+}
+
+.fundo-verde-cards4 .text-perfil{
+    text-align: center;
+}
+
+.fundo-verde-cards4 .botao-perfil{
+    width: auto;
+    justify-content: center;
+}
+
+.dados-pessoais{
+    margin-left: 80px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    color: #0F5A67;
+}
+
+.card {
+    background: #E6F7F9;
+    margin: auto 15px auto 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 26%;
+    text-align: center;
+
+}
+.card3 {
+    height: 5.79em;
+}
+
+.text-card3 {
+    font-size: 1.08em;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 20px;
+    background: #333;
+    color: #fff;
+    position: relative;
+    width: 100%;
+    height: 18px;
+    font-size: 14px;
+}

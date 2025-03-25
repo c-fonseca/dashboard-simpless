@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Dashboard Simples</title>
+</head>
+<body>
+    <div class="sidebar">
+        <img class="img-perfil" src="assets/images/img-perfil.jpg" alt="Foto perfil">
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#relatorios">Relatórios</a></li>
+                <li><a href="#configuracoes">Configurações</a></li>
+                <li><a href="#perfil">Perfil</a></li>
+                <li class="text-sair"><a href=""></a>Sair</li>
+            </ul>
+        </nav>
+    </div>
+
+    <main>
+        <section id="inicio">
+            <h2 class="titulo-geral">Visão geral dos dados importantes</h2>
+            <div class="fundo-verde-cards">
+                <div class="cards">
+                    <div class="card">
+                        <h3>Usuários Ativos</h3>
+                        <p>150</p>
+                    </div>
+                    <div class="card">
+                        <h3>Vendas Hoje</h3>
+                        <p>30</p>
+                    </div>
+                    <div class="card card3">
+                        <h3 class="text-card3">Feedbacks Recebidos</h3>
+                        <p>12</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="relatorios">
+            <div class="fundo-verde-cards2">
+                <h2>Relatórios</h2>
+                <p>Selecione um relatório para visualizar:</p>
+                <select>
+                    <option value="">Selecione...</option>
+                    <option value="vendas">Vendas</option>
+                    <option value="usuarios">Usuários</option>
+                </select>
+                <button type="button">Gerar Relatório</button>
+                <div class="report-output">
+                    <!-- Saída do relatório aparecerá aqui -->
+                </div>
+            </div>
+        </section>
+
+        <section id="configuracoes">
+            <div class="fundo-verde-cards3">
+                <h2>Configurações</h2>
+                <form>   
+                    <input type="email" id="email" name="email" placeholder="Digite seu novo e-mail">
+                    <input type="password" id="senha" name="senha" placeholder="Digite sua nova senha">
+                    <button type="submit">Salvar Configurações</button>
+                </form>
+            </div>
+        </section>
+
+
+        <section id="perfil">
+            <div class="fundo-verde-cards4">
+                <h2 class="text-perfil">Perfil do Usuário</h2>
+                <div class="dados-pessoais">
+                    <p>Nome: <span id="usuario-nome">João Silva</span></p>
+                    <p>E-mail: <span id="usuario-email">joaosilva@gmail.com</span></p>
+                    <p>Telefone: <span id="usuario-telefone">(77) 92345-6789</span></p>
+                </div>
+                <button class="botao-perfil" type="button">Editar Perfil</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Dashboard Simples</p>
+    </footer>
+</body>
+</html>
