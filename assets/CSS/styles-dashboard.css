@@ -7,6 +7,33 @@ body {
     background-color: #E6F7F9;
 }
 
+/* Tema claro (padrão) */
+body {
+    background-color: #E6F7F9;  /* Cor clara de fundo */
+    color: black;  /* Cor do texto */
+}
+
+/* Tema escuro */
+body.dark {
+    background-color: #333;  /* Cor de fundo escura */
+    color: white;  /* Cor do texto clara */
+}
+
+
+.sidebar.dark {
+    background-color: #222;  /* Sidebar cor escura */
+}
+
+.fundo-verde-cards, .fundo-verde-cards2, .fundo-verde-cards3, .fundo-verde-cards4 {
+    background-color: #0F5A67;  /* Cor padrão dos fundos */
+}
+
+.fundo-verde-cards.dark, .fundo-verde-cards2.dark, .fundo-verde-cards3.dark, .fundo-verde-cards4.dark {
+    background-color: #333;  /* Cor escura dos fundos */
+}
+
+
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -28,16 +55,36 @@ main {
     padding: 20px;
 }
 
+.botao-tema {
+    background-color: #0F5A67;
+    border: none;
+    color: #E6F7F9;
+    height: 25px;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.titulo-geral {
+    text-align: center; 
+    color: #0F5A67;
+    width: 80%;
+}
+
+.titulo-botao {
+    display: flex;
+    justify-content: end;
+}
+
 .sidebar {
-        display: flex;
-        flex-direction: column;
-        background: #0F5A67;
-        color: #fff;
-        text-align: center;
-        width: 300px;
-        height: 100vh;
-        position: fixed;
-        align-items: center;
+    display: flex;
+    flex-direction: column;
+    background: #0F5A67;
+    color: #fff;
+    text-align: center;
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    align-items: center;
 }
 
 .sidebar .img-perfil {
@@ -54,11 +101,6 @@ main {
 
 .text-sair{
     margin-top: 12em;
-}
-
-.titulo-geral {
-    text-align: center;
-    color: #0F5A67;
 }
 
 .fundo-verde-cards {

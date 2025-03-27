@@ -21,9 +21,13 @@
         </nav>
     </div>
 
+
     <main>
         <section id="inicio">
-            <h2 class="titulo-geral">Visão geral dos dados importantes</h2>
+            <div class="titulo-botao">
+                <h2 class="titulo-geral">Visão geral dos dados importantes</h2>
+                <button class="botao-tema">Mudar tema</button>
+            </div>
             <div class="fundo-verde-cards">
                 <div class="cards">
                     <div class="card">
@@ -51,23 +55,26 @@
                     <option value="vendas">Vendas</option>
                     <option value="usuarios">Usuários</option>
                 </select>
-                <button type="button">Gerar Relatório</button>
+                <button onclick="gerarRelatorio()" type="button">Gerar Relatório</button>
                 <div class="report-output">
                     <!-- Saída do relatório aparecerá aqui -->
                 </div>
             </div>
         </section>
 
+
         <section id="configuracoes">
             <div class="fundo-verde-cards3">
                 <h2>Configurações</h2>
-                <form>   
+                <form>  
                     <input type="email" id="email" name="email" placeholder="Digite seu novo e-mail">
                     <input type="password" id="senha" name="senha" placeholder="Digite sua nova senha">
-                    <button type="submit">Salvar Configurações</button>
+                    <button onclick="configuracoesSalvas()" type="button">Salvar Configurações</button>
                 </form>
             </div>
         </section>
+
+
 
 
         <section id="perfil">
@@ -83,9 +90,11 @@
         </section>
     </main>
 
+
     <footer>
         <p>&copy; 2025 Dashboard Visão Geral</p>
     </footer>
+
 
     <script src="script.js"></script>
 </body>
